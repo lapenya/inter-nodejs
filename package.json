@@ -5,10 +5,14 @@
     "author": "pableras",
     "main": "inter.coffee",
     "dependencies": {
-        "express": "*",
+        "express": "2.5.x",
         "coffee-script": "*",
         "coffeekup": "*",
         "pg": "0.7.x"
+    },
+    "engines": {
+        "node": "0.8.x",
+        "npm": "1.1.x"
     },
     "devDependencies": {}
 }
