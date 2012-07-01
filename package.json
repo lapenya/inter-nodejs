@@ -6,9 +6,12 @@
     "main": "inter.coffee",
     "dependencies": {
         "express": "2.5.x",
+        "underscore": "*",
         "coffee-script": "*",
         "coffeekup": "*",
-        "pg": "0.7.x"
+        "pg": "0.7.x",
+        "jugglingdb": "0.1.x",
+        "railway": "0.2.x"
     },
     "engines": {
         "node": "0.8.x",

@@ -1,1 +1,1 @@
-web: coffee inter.coffee
+web: ./start.sh
