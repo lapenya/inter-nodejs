@@ -1,1 +1,1 @@
-web: node demo.js
+web: coffee inter.coffee

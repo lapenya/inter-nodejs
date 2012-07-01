@@ -3,14 +3,12 @@
     "description": "Partidicos del Inter",
     "version": "0.1.0",
     "author": "pableras",
+    "main": "inter.coffee",
     "dependencies": {
-        "express": "2.5.x",
-        "coffee-script": "1.3.x",
-        "coffeekup": "0.3.x",
+        "express": "*",
+        "coffee-script": "*",
+        "coffeekup": "*",
         "pg": "0.7.x"
     },
-    "engines": {
-        "node": "0.6.x"
-    },     
     "devDependencies": {}
 }
