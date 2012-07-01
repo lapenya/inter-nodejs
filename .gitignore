@@ -3,4 +3,5 @@
 *.log
 node_modules
 DB_URL
+config.js
 

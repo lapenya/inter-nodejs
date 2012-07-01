@@ -7,7 +7,8 @@
         "express": "2.5.x",
         "coffee-script": "1.3.x",
         "coffeekup": "0.3.x",
-        "pg": "0.5.4"
+        "pg": "0.5.4",
+        "node-migrate": "latest"
     },
     "engines": {
         "node": "0.6.x"
