@@ -1,9 +1,9 @@
 var express = require('express');
+var pg = require('pg');
+
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-    var pg = require('pg');
-
     pg.connect(process.env.DATABASE_URL, function(err, client) {
       var query = client.query('SELECT * FROM players');
     
