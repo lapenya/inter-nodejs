@@ -1,4 +1,5 @@
 .nide
 .idea
 *.log
+node_modules
 
